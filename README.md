@@ -60,3 +60,7 @@ this may be unapdated
 - `kernel/entry.asm`  - kernel entry stub, sets up the stack, calls into C++
 - `kernel/kernel.cpp` - freestanding C++ kernel: VGA text driver (with hardware cursor sync), PS/2 keyboard driver, CMOS RTC driver, PC speaker driver, shell
 - `kernel/linker.ld`  - links the kernel to run at the physical address it's loaded to (0x10000)
+
+# Caution
+- This stuff is not certain.
+- Who wants to help me fork the repo and commit. This os will not be developed much. there is no full instructions to how to contribute and what is pending to be done.
