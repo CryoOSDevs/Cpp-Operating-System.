@@ -47,7 +47,8 @@ public:
         set_cursor_shape(14, 15);
         clear();
     }
-
+    
+  
     void clear() {
         for (uint16_t y = 0; y < kHeight; ++y)
             for (uint16_t x = 0; x < kWidth; ++x)
