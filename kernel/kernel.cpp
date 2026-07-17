@@ -55,7 +55,7 @@ public:
         row_ = 0; col_ = 0;
         sync_cursor();
     }
-
+// normal tyem
     void set_color(Color fg, Color bg) { color_ = entry_color(fg, bg); }
 
     void scroll() {
