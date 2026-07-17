@@ -509,7 +509,7 @@ void dispatch(char* line) {
     vga::term.write(line);
     vga::term.put('\n');
 }
-
+// extended cut.
 void run() {
     char buf[kBufSize];
     size_t len = 0;
